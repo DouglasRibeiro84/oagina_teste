@@ -3,38 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Noiticias do dia</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <header>
-        <h1>Noiticias do dia</h1>
+        <div class="conteiner">
+            <h1>Noticias do dia</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#politicia" title="Ir para sessão de política">Política</a>
+                        <a href="#politicia" title="Ir para política">Política</a>
                     </li>
                     <li>
-                        <a href="#esportes" title="Ir para sessão de esportes">Esportes</a>
+                        <a href="#esportes" title="Ir para esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economia" title="Ir para economia">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#tecnologia" title="Ir para tecnologia">Tecnologia</a>
                     </li>
                 </ul>
             </nav>
+        </div>
     </header> 
-    <section>
-        <h2>Politica</h2>
-            <article>
-                <h2>Eleição</h2>
-            </article>
-            <article>
-                <h2>Votação</h2>
-            </article>
-            <article>
-                <h2>Disputa presedencial</h2>
-            </article>
-            <article>
-                <h2>Governadores</h2>
-            </article>
+    <section id="politicia">
+        <div class="conteiner">
+            <div class="article">
+                <h2>Politica</h2>
+                    <article>
+                        <h2>Eleição</h2>
+                            <p>Texto de Eleição</p>
+                            <img src="https://static.poder360.com.br/2022/09/TSE-Urna-Eleicoes-AlexandreDeMoraes-Simulacao-12-848x477.jpg">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus necessitatibus minus dignissimos atque autem in eveniet fugiat labore amet! Quod adipisci, quasi iure magni sint tempora eius maxime. Laudantium, culpa. </p>
+                    </article>
+                    <article>
+                        <h2>Votação</h2>
+                        <p>Texto de votação</p>
+                        <img src="https://www.tse.jus.br/imagens/fotos/urna-eletronica-em-02-12-2015-1449076292399/@@images/1fcc8cf6-4510-4bce-a7ea-9e7337622ec3.jpeg">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus necessitatibus minus dignissimos atque autem in eveniet fugiat labore amet! Quod adipisci, quasi iure magni sint tempora eius maxime. Laudantium, culpa </p>         
+                    </article>
+                    <article>
+                        <h2>Disputa presedencial</h2>
+                        <p>Texto de votação</p>
+                        <img src="https://conteudo.imguol.com.br/c/noticias/2014/10/26/grafico---presidente---2t-1414367568864_601x370.png">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus necessitatibus minus dignissimos atque autem in eveniet fugiat labore amet! Quod adipisci, quasi iure magni sint tempora eius maxime. Laudantium, culpa. </p>
+                    </article>
+                    <article>
+                        <h2>Governadores</h2>
+                        <p>Texto de votação</p>
+                        <img src="https://republicanos10.org.br/wp-content/uploads/2022/05/O-que-faz-um-governador-800x562.png">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus necessitatibus minus dignissimos atque autem in eveniet fugiat labore amet! Quod adipisci, quasi iure magni sint tempora eius maxime. Laudantium, culpa. </p>
+                    </article>
+            </div>
+        </div>
     </section>
-    <section>
+    <section id="esportes">
+        <div class="conteiner">
         <h2>Esportes</h2>
             <article>
                 <h2>Volei</h2>
@@ -48,8 +74,10 @@
             <article>
                 <h2>Tênis de mesa</h2>
             </article>
+        </div>
     </section>
-    <section>
+    <section id="economia">
+        <div class="conteiner">
         <h2>Economia</h2>
             <article>
                 <h2>Aumento do Dolar</h2>
@@ -63,8 +91,10 @@
             <article>
                 <h2>Bitcoin</h2>
             </article>
+        </div>
     </section>
-    <section>
+    <section id="tecnologia">
+        <div class="conteiner">
         <h2>Tecnologia</h2>
             <article>
                 <h2>Ia</h2>
@@ -78,9 +108,10 @@
             <article>
                 <h2>Phyton</h2>
             </article>
+        </div>
     </section>
     <footer>
-        <p>rodapé</p>
+        <p>&copy; 2024 - Página de Notícias</p>
     </footer>
 </body>
 </html>
