@@ -2,24 +2,49 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-align: center;
-    background-color: black;
     color: white;
+}
+
+body{
+    background-color: black;
 }
 
 .conteiner{
     width: 1366px;
     margin: 0 auto;
 }
+header {
+    border: solid rgb(255, 255, 255);
+    background-color: rgba(59, 68, 78, 0.751);
+    padding: 16px 0px;
+}
 
-header{
-    margin: 10px;
-    border: solid red;
-    background-color: rgba(0, 119, 255, 0.705);
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    margin-left: 10px;
 }
 
 header li{
+    
+    border: solid white;
     display: inline;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+header li a:hover{
+    text-decoration: underline;
 }
 
 .article{
@@ -27,16 +52,69 @@ header li{
     flex-wrap: wrap;
     margin: 10px 10px 10px 10px;
     justify-content: space-between;
-    }
+}
 
 .article article img {
-    height: 250px;
+    height: 180px;
 }
 
 .article article{
-    width: 50%;
+    width: 49%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid white;
+    background-color: rgba(59, 68, 78, 0.55);
+}
+
+section {
+    padding: 25px 0px;
+    border: solid white;
+}
+
+section h2, .article article{
+    margin-bottom: 17px;
+    text-align: center;
 }
 
 footer{
-    border: solid red;
+    font-size: 20px;
+    height: 60px;
+    border: solid rgb(255, 255, 255);
+    background-color: rgba(59, 68, 78, 0.751);
+    padding-top: 17px;
+    text-align: center;
 }
+
+
+.article article p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.article article h3{
+    font-size: 24px;
+    margin: 10px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#politicia{
+    background-color: rgba(55, 111, 175, 0.751)
+}
+
+#esportes{
+    background-color: rgba(12, 179, 12, 0.724);
+}
+
+#economia{
+    background-color: rgba(255, 255, 0, 0.781);
+}
+
+#tecnologia{
+    background-color: rgba(190, 21, 190, 0.703);
+}
+
+
